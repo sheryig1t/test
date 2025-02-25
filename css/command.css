@@ -12,3 +12,226 @@ a {
 p {
   margin: 0;
 }
+.container {
+  position: relative;
+  width: 1320px;
+  height: auto;
+  display: flex;
+}
+/* navbar */
+.navbar_frame {
+  position: relative;
+  width: 100%;
+  height: 145px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(68, 50, 151);
+}
+.navbar_frame .container {
+  position: relative;
+  width: 1320px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 0px 14px;
+}
+.navbar_frame .navbar_top {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+}
+.navbar_frame .navbar_top .nav_search_frame {
+  width: 650px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 6px;
+
+  align-items: center;
+  background-color: white;
+}
+.navbar_frame .navbar_top > a img {
+  height: 36px;
+  margin-right: 76px;
+}
+.navbar_frame .navbar_top .search_box {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 17px;
+}
+.navbar_frame .search_box .category_list {
+  width: 166px;
+  height: 30px;
+  border-right: 1px solid #d6d6d6;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navbar_frame .category_list select {
+  width: 150px;
+  height: 30px;
+  border: none;
+
+  outline: none;
+}
+.navbar_frame .search_box input {
+  width: 387px;
+  height: 30px;
+  margin-left: 12px;
+  border: none;
+  outline: none;
+}
+.navbar_frame .nav_search_frame .search_icon_box {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5c34b;
+  border-radius: 0px 6px 6px 0px;
+}
+.navbar_frame .navbar_top .nav_top_menu {
+  margin-left: 29px;
+  width: 416px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navbar_frame .nav_top_menu .top_menu_box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+.navbar_frame .top_menu_box .box_icon_box {
+  position: relative;
+  height: 54px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+}
+.navbar_frame .box_icon_box img {
+  height: 30px;
+  width: 30px;
+}
+.navbar_frame .top_menu_box .box_info_box {
+  display: flex;
+  flex-direction: column;
+}
+.box_info_box span {
+  color: rgb(255, 255, 255);
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.navbar_frame .box_info_box strong {
+  color: rgb(255, 255, 255);
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.navbar_frame .box_icon_box .backet_count {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5c34b;
+  border-radius: 50%;
+}
+.navbar_frame .navbar_bott {
+  width: 100%;
+  height: 40px;
+
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  border-top: #cacaca 1px solid;
+}
+.navbar_frame .navbar_bott .navbar_bott_menu_box {
+  margin-top: 10px;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+.navbar_frame .navbar_bott_menu_box .browse_box {
+  width: 185px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-right: 1px solid #5746a1;
+}
+.navbar_frame .browse_box img {
+  margin-right: 10px;
+  width: 20px;
+  height: 18px;
+}
+.navbar_frame .browse_box span {
+  color: rgb(255, 255, 255);
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.navbar_frame .nav_bott_menu_box .navbar_route_menu {
+  margin: 12px;
+
+  display: flex;
+  flex-direction: row;
+}
+.navbar_frame .navbar_route_menu .router_menu {
+  margin-left: 41px;
+  display: flex;
+  width: 650px;
+  margin-right: 20px;
+  flex-direction: row;
+}
+.navbar_frame .router_menu a {
+  color: rgb(255, 255, 255);
+  font-family: jost;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-right: 25px;
+}
+.navbar_frame .router_menu a:active {
+  color: #f5c34b;
+}
+.navbar_frame .nav_bott_menu_box .sorting_menu {
+  display: flex;
+  flex-direction: row;
+}
+.navbar_frame .sorting_menu span {
+  color: rgb(255, 255, 255);
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  margin-left: 20px;
+}
