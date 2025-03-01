@@ -274,7 +274,7 @@
 .selling_product_frame .container {
   flex-direction: column;
 }
-.container .product_wrapper {
+.selling_product_frame .container .product_wrapper {
   margin-top: 30px;
   width: 100%;
   height: auto;
@@ -282,31 +282,31 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.product_wrapper .next_prev_box {
+.selling_product_frame .product_wrapper .next_prev_box {
   width: 25px;
 }
-.next_prev_box img {
+.selling_product_frame .next_prev_box img {
   position: absolute;
   top: 60%;
 }
-.product_wrapper .product_boxes {
+.selling_product_frame .product_wrapper .product_boxes {
   width: 1324px;
   height: 452px;
   display: flex;
   flex-direction: row;
   box-sizing: border-box;
 }
-.product_boxes .product_box {
+.selling_product_frame .product_boxes .product_box {
   width: 306px;
   height: 100%;
   display: flex;
   flex-direction: column;
 }
-.product_box .product_img_box {
+.selling_product_frame .product_box .product_img_box {
   width: 100%;
   height: 280px;
 }
-.product_img_box .hover_box {
+.selling_product_frame .product_img_box .hover_box {
   width: 100%;
   height: 100%;
   flex-direction: column;
@@ -314,10 +314,10 @@
   justify-content: flex-end;
   display: none;
 }
-.product_img_box:hover .hover_box {
+.selling_product_frame .product_img_box:hover .hover_box {
   display: flex;
 }
-.hover_box button {
+.selling_product_frame .hover_box button {
   width: 260px;
   height: 50px;
   display: flex;
@@ -335,14 +335,14 @@
   border-radius: 6px;
   margin-bottom: 10px;
 }
-.ptoduct_box .product_content_box {
+.selling_product_frame .ptoduct_box .product_content_box {
   width: 100%;
   height: auto;
   padding: 5px 22px;
   display: flex;
   flex-direction: column;
 }
-.product_content_box .product_title {
+.selling_product_frame .product_content_box .product_title {
   color: rgb(98, 105, 116);
   font-family: Jost;
   font-size: 13px;
@@ -352,7 +352,7 @@
   text-align: left;
   text-transform: uppercase;
 }
-.product_content_box .product_description {
+.selling_product_frame .product_content_box .product_description {
   color: rgb(4, 30, 66);
   font-family: Jost;
   font-size: 16px;
@@ -364,14 +364,14 @@
   height: 56px;
   overflow: hidden;
 }
-.product_content_box .review_box {
+.selling_product_frame .product_content_box .review_box {
   display: flex;
   flex-direction: row;
   margin-top: 7px;
   align-items: center;
   margin-left: 10px;
 }
-.price_box strong {
+.selling_product_frame .price_box strong {
   color: rgb(4, 30, 66);
   font-family: Jost;
   font-size: 18px;
@@ -380,7 +380,7 @@
   letter-spacing: 0%;
   text-align: left;
 }
-.price_box span {
+.selling_product_frame .price_box span {
   color: rgb(98, 105, 116);
   font-family: Jost;
   font-size: 14px;
@@ -389,4 +389,196 @@
   letter-spacing: 0%;
   text-align: left;
   text-decoration-line: line-through;
+}
+.container .product_pagination_box {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+  flex-direction: row;
+}
+.product_pagination_box .pagination_main {
+  display: flex;
+  flex-direction: row-reverse;
+  /* justify-content: space-between; */
+  align-items: center;
+  width: auto;
+  height: 24px;
+}
+.pagination_main .pagination_dot {
+  display: flex;
+  flex-direction: row;
+  max-width: 0px 20px;
+}
+.pagination_dot .dot {
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+
+  display: flex;
+  align-items: center;
+}
+.dot div {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #000000;
+  display: flex;
+}
+.pagination_dot .dot.active {
+  border: 1px solid #000000;
+  border-radius: 50%;
+}
+.maintion_frame {
+  position: relative;
+  margin-top: 60px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.maintion_frame .container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 100%;
+  background-image: url(../icons/image\ 82.png);
+}
+.maintion_frame .container span {
+  color: rgb(0, 83, 246);
+  font-family: Jost;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.ads_frame {
+  position: relative;
+  margin-top: 90px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.ads_frame .container {
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container .category_top {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.container .ads_box_wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 30px;
+  width: 100%;
+  height: 368px;
+}
+.ads_box_wrapper .ads_box_right {
+  width: 665px;
+  height: 368px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 6px;
+
+  background: rgb(243, 245, 246);
+}
+.ads_box_right span {
+  color: rgb(4, 30, 66);
+  font-family: Jost;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.ads_box_right strong {
+  color: rgb(4, 30, 66);
+  font-family: Jost;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.ads_box_right a {
+  color: rgb(4, 30, 66);
+  font-family: Jost;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  border-bottom: 2px solid rgb(4, 30, 66);
+}
+
+.ads_box_right .right_content_box {
+  position: absolute;
+  margin: 20px;
+  bottom: 40px;
+  left: 46px;
+}
+.ads_box_right img {
+  width: 320px;
+  height: 310px;
+
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+.ads_box_wrapper .ads_box_left {
+  width: 48%;
+  height: 368px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 6px;
+  margin-left: 30px;
+  flex-wrap: wrap;
+}
+.ads_box_left .small_box {
+  position: relative;
+  padding: 30px;
+  width: 293px;
+  height: 160px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  background-color: #f3f5f6;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+.small_box .small_box_content {
+  display: flex;
+  flex-direction: column;
+}
+.small_box_content strong {
+  color: rgb(4, 30, 66);
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.small_box_content span {
+  color: rgb(98, 105, 116);
+  font-family: Jost;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.small_box img {
+  position: absolute;
+  right: 30px;
+  top: 40px;
 }
