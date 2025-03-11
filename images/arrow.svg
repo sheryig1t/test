@@ -1,0 +1,25 @@
+<svg width="460.000000" height="50.000000" viewBox="0 0 460 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip129_1713">
+			<rect id="next 1" width="13.750001" height="13.750001" transform="translate(31.250000 32.500000) rotate(-179.999985)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<clipPath id="clip129_1719">
+			<rect id="next 1" width="13.750000" height="13.750000" transform="translate(428.750000 18.750000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<circle id="Ellipse 28" cx="25.000000" cy="25.000000" r="25.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+	<circle id="Ellipse 28" cx="25.000000" cy="25.000000" r="24.500000" stroke="#EAEAEA" stroke-opacity="1.000000" stroke-width="1.000000"/>
+	<rect id="next 1" width="13.750001" height="13.750001" transform="translate(31.250000 32.500000) rotate(-179.999985)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip129_1713)">
+		<path id="Vector" d="M20.81 26L27.17 32.34C27.38 32.55 27.72 32.55 27.93 32.34C28.13 32.13 28.13 31.79 27.93 31.58L21.95 25.62L27.93 19.66C28.13 19.45 28.14 19.11 27.93 18.9C27.82 18.8 27.69 18.75 27.55 18.75C27.41 18.75 27.28 18.8 27.17 18.9L20.81 25.24C20.71 25.34 20.66 25.48 20.66 25.62C20.66 25.76 20.71 25.9 20.81 26Z" fill="#112137" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+	<circle id="Ellipse 28" cx="435.000000" cy="25.000000" r="25.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+	<circle id="Ellipse 28" cx="435.000000" cy="25.000000" r="24.500000" stroke="#112137" stroke-opacity="1.000000" stroke-width="1.000000"/>
+	<rect id="next 1" width="13.750000" height="13.750000" transform="translate(428.750000 18.750000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip129_1719)">
+		<path id="Vector" d="M439.18 25.24L432.82 18.9C432.61 18.69 432.27 18.69 432.06 18.9C431.86 19.11 431.86 19.45 432.06 19.66L438.05 25.62L432.06 31.58C431.86 31.79 431.86 32.13 432.06 32.34C432.17 32.44 432.3 32.5 432.44 32.5C432.58 32.5 432.71 32.44 432.82 32.34L439.18 26C439.28 25.9 439.33 25.76 439.33 25.62C439.33 25.48 439.28 25.34 439.18 25.24Z" fill="#112137" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>
